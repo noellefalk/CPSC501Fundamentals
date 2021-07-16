@@ -21,6 +21,6 @@ public class DistCalc {
 		
 		double distance = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 		
-		System.out.printf("The distance between the two points (%.2f, %.2f) and (%.2f, %.2f) is %.4f", x1, y1, x2, y2, distance);	
+		System.out.printf("The distance between the two points (%.2f, %.2f) and (%.2f, %.2f) is %.3f", x1, y1, x2, y2, distance);	
 	}
 }
