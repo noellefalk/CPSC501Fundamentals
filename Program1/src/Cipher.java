@@ -51,7 +51,9 @@ public class Cipher {
 			System.out.print("Please read directions and try again!");
 			System.exit(0);
 		}
-
+		
+		scanner.close();
+		
 		int plaintext = num1 + num2 + num3 + num4 + num5;
 		System.out.println("\nTotal = " + plaintext);
 		 
